@@ -3,7 +3,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 export const apiSlice = createApi({
   reducerPath: "api",
   baseQuery: fetchBaseQuery({
-    baseUrl: "http://localhost:9000",
+    baseUrl: "https://video-gallery-rtk-query-server.onrender.com",
   }),
   tagTypes: ["books", "book"],
   endpoints: (builder) => ({
